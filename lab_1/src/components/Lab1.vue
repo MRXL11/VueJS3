@@ -1,19 +1,20 @@
 <script setup >
+import {ref,reactive} from 'vue';
+
+const courseName=ref('Frontend-Frameworks')
+
+const student= reactive({
+        name :'Bui Van Duong',
+        age : 22,
+        class: 'Frontend-Framework Vue JS 3',
+
+    });
 </script>
 <template>
-    <div class="container mt-5">
-        <div class="d-flex justify-content-between mb-3">
-            <h2>Danh sách khóa học</h2>
-            <button class="btn btn-primary">Thêm mới</button>
-        </div>
+    <div id="app">
+        <div class="container mb-5">
+            <h1 class="display-4 mb-3">Thông tin sinh viên:</h1>
 
-        <table>
-            <thead>
-                <tr>
-                    <td>Tên</td>
-                    <td></td>
-                </tr>
-            </thead>
-        </table>
+        </div>
     </div>
 </template>
