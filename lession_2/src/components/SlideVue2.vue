@@ -170,7 +170,7 @@ const student= reactive({
 </template> -->
 
 <!-- click đổi tên -->
-<!-- <script setup >
+<script setup >
 import {ref} from 'vue';
 
 const myName=ref('Bùi Văn Dương')
@@ -183,17 +183,17 @@ function changeName(){
         <h1>Hello, {{ myName }}</h1>
         <button @click="changeName" class="btn btn-success">Đổi tên</button>
     </div>
-</template> -->
+</template>
 
 <!-- Đồng bộ 2 chiều -->
 
-<script setup >
+<!-- <script setup >
 import {ref} from 'vue'
 const myName=ref('Nguyễn Văn D')
 </script>
 <template>
     {{ myName }}
     <input type="text" v-model="myName"/>
-</template>
+</template> -->
 
 
