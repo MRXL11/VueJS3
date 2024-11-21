@@ -1,15 +1,19 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import SlideVue1 from './components/SlideVue1.vue'
-import SlideVue2 from './components/SlideVue2.vue'
+// import SlideVue1 from './components/SlideVue1.vue'
+// import SlideVue2 from './components/SlideVue2.vue'
+import SlideVue3 from './components/SlideVue3.vue'
+import SlideVue4 from './components/SlideVue4.vue'
 
 
 </script>
 
 <template>
 <!-- <SlideVue1/> -->
-<SlideVue2/>
+<!-- <SlideVue2/> -->
+<!-- <SlideVue3/> -->
+<SlideVue4/>
 </template>
 
 <style scoped>
